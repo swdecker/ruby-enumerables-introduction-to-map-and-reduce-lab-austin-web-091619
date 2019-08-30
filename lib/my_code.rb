@@ -31,8 +31,8 @@ def map_to_square(arr)
   arr_to_ret
 end
 
-def reduce_to_total(arr, start_point)
-  tot = 0+start_point
+def reduce_to_total(arr, start_point=0)
+  tot = start_point
   arr.length.times do |i|
     tot+=arr[i]
   end
