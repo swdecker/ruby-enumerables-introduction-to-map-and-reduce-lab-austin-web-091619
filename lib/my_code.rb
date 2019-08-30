@@ -39,4 +39,8 @@ def reduce_to_total(arr, start_point=0)
   tot
 end
 
+def reduce_to_all_true(arr)
+  
+
+
 
