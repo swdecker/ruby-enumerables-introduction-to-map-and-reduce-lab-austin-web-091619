@@ -40,7 +40,13 @@ def reduce_to_total(arr, start_point=0)
 end
 
 def reduce_to_all_true(arr)
-  
-
+  val = true
+  arr.length.times do |i|
+    if arr[i] ==false
+      val = false
+    end
+  end
+    val
+end
 
 
